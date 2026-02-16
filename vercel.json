@@ -1,10 +1,5 @@
 {
-"version": 2,
-"name": "mon-app-1o6b",
-"builds": [
-{ "src": "package.json", "use": "@vercel/static-build" }
-],
+"framework": "create-react-app",
 "rewrites": [
-{ "source": "/(.*)", "destination": "/" }
+{ "source": "/(.*)", "destination": "/index.html" }
 ]
-}
