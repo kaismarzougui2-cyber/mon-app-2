@@ -1,5 +1,9 @@
 {
 "version": 2,
+"name": "mon-app-1o6b",
+"builds": [
+{ "src": "package.json", "use": "@vercel/static-build" }
+],
 "rewrites": [
 { "source": "/(.*)", "destination": "/" }
 ]
