@@ -1,5 +1,6 @@
 {
-"framework": "create-react-app",
+"version": 2,
 "rewrites": [
-{ "source": "/(.*)", "destination": "/index.html" }
+{ "source": "/(.*)", "destination": "/" }
 ]
+}
